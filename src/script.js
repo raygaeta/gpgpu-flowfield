@@ -15,6 +15,14 @@ import gpgpuParticlesShader from './shaders/gpgpu/particles.glsl'
 const gui = new GUI({ width: 340 })
 const debugObject = {}
 
+// Center the GUI horizontally and close by default
+const guiContainer = document.querySelector('.lil-gui');
+guiContainer.style.position = 'absolute';
+guiContainer.style.left = '50%';
+guiContainer.style.transform = 'translateX(-50%)';
+gui.close();
+
+
 // Canvas
 const canvas = document.querySelector('canvas.webgl')
 
