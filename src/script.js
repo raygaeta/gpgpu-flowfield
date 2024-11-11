@@ -12,7 +12,7 @@ import gpgpuParticlesShader from './shaders/gpgpu/particles.glsl'
  * Base
  */
 // Debug
-const gui = new GUI({ width: 340 })
+const gui = new GUI({ width: 190 })
 const debugObject = {}
 
 // Center the GUI horizontally and close by default
