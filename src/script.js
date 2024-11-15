@@ -69,7 +69,7 @@ window.addEventListener('resize', () =>
  */
 // Base camera
 const camera = new THREE.PerspectiveCamera(35, sizes.width / sizes.height, 0.1, 100)
-camera.position.set(4.5, 4, 11)
+camera.position.set(4.5, 4, 25) // Pushed the camera back
 scene.add(camera)
 
 // Controls
@@ -86,7 +86,7 @@ const renderer = new THREE.WebGLRenderer({
 renderer.setSize(sizes.width, sizes.height)
 renderer.setPixelRatio(sizes.pixelRatio)
 
-debugObject.clearColor = '#29191f'
+debugObject.clearColor = '#000000' // Changed background color to black
 renderer.setClearColor(debugObject.clearColor)
 
 /**
