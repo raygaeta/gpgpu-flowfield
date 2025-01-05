@@ -1,4 +1,6 @@
-# Three.js Journey
+# Creative Coding Challenge
+
+### An instance of General-Purpose Computing on Graphics Processing Units (GPGPU) used to calculate a flow field that dynamically directs particles positioned according to the position and color attributes from a 3D model. 
 
 ## Setup
 Download [Node.js](https://nodejs.org/en/download/).
